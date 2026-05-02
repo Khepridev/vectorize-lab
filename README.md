@@ -2,6 +2,10 @@
 
 Browser-based PNG to SVG converter built with Next.js. The app runs client-side conversion with quality presets, advanced tracing controls, similarity scoring, and batch ZIP export.
 
+## Screenshot
+
+![Vectorize Lab screenshot](./Screen.png)
+
 ## Features
 
 - Single PNG to SVG conversion in-browser

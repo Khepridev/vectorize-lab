@@ -12,7 +12,7 @@ import {
 } from "@/lib/tracer";
 import { validatePngFile } from "@/lib/fileValidation";
 import { useTheme } from "next-themes";
-import { Moon, Sun } from "lucide-react";
+import { Github, Globe, Moon, Sun, Youtube } from "lucide-react";
 
 const QUALITY_PRESETS: Array<{ value: TracePreset; label: string; description: string }> = [
   {
@@ -496,8 +496,46 @@ export default function Home() {
           <p className="mt-2 text-zinc-500 dark:text-zinc-400">
             Convert PNGs to SVG purely in your browser.
           </p>
+          <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
+            <a
+              href="https://vectorize-lab.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 bg-white px-3 py-1.5 text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+            >
+              <Globe className="h-4 w-4" />
+              Live Demo
+            </a>
+            <a
+              href="https://khepridev.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 bg-white px-3 py-1.5 text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
+            >
+              <Globe className="h-4 w-4" />
+              khepridev.xyz
+            </a>
+          </div>
         </div>
         <div className="flex items-center gap-2">
+          <a
+            href="https://github.com/Khepridev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full p-2.5 bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center text-zinc-600 dark:text-zinc-400 hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors"
+            aria-label="Khepridev GitHub"
+          >
+            <Github className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.youtube.com/@Khepridev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full p-2.5 bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center text-zinc-600 dark:text-zinc-400 hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors"
+            aria-label="Khepridev YouTube"
+          >
+            <Youtube className="h-5 w-5" />
+          </a>
           <Link
             href="/docs"
             className="rounded-xl px-3 py-2 text-sm font-medium bg-zinc-100 dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors"

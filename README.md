@@ -2,7 +2,7 @@
 
 Browser-based PNG to SVG converter built with Next.js. The app runs client-side conversion with quality presets, advanced tracing controls, similarity scoring, and batch ZIP export.
 
-- Live Demo: `https://vectorize-lab.vercel.app/`
+- Live Demo: `https://vectorize-lab-g25p.vercel.app/`
 - Website: `https://khepridev.xyz`
 - GitHub: `https://github.com/Khepridev`
 - YouTube: `https://www.youtube.com/@Khepridev`

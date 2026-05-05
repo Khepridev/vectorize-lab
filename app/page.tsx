@@ -498,15 +498,6 @@ export default function Home() {
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
             <a
-              href="https://vectorize-lab.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 bg-white px-3 py-1.5 text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
-            >
-              <Globe className="h-4 w-4" />
-              Live Demo
-            </a>
-            <a
               href="https://khepridev.xyz"
               target="_blank"
               rel="noopener noreferrer"
